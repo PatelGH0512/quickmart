@@ -39,10 +39,10 @@ const Navbar = () => {
   }, [searchQuery, navigate]);
 
   return (
-    <nav className="flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 border-b border-gray-300 bg-white relative transition-all">
+    <nav className="flex items-center justify-between px-2 md:px-16 lg:px-24 xl:px-32 py-4 border-b border-gray-300 bg-white relative transition-all">
       {/* Logo */}
       <NavLink to="/" onClick={() => setOpen(false)}>
-        <img className="h-9" src={assets.logo} alt="logo" />
+        <img className="h-9 p-1 mr-2" src={assets.logo} alt="logo" />
       </NavLink>
 
       {/* Desktop Menu */}

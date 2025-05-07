@@ -6,7 +6,7 @@ const Footer = () => {
       {/* Footer Top Section */}
       <div className="flex flex-col md:flex-row items-start justify-between gap-10 py-12 p-20 border-b border-gray-300 shadow-sm">
         <div>
-          <img className="w-36 md:w-32" src={assets.logo} alt="logo" />
+          <img className="w-98 md:w-90 p-0 " src={assets.logo} alt="logo" />
           <p className="max-w-[410px] mt-6 text-gray-600">
             We deliver fresh groceries and snacks straight to your door. Trusted
             by thousands, we aim to make your shopping experience simple and
